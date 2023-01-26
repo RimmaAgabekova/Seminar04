@@ -15,6 +15,5 @@ int[] GetRandomArray(int length)
     {
         result[i] = new Random().Next(0, 20);
     }
-
     return result;
 }
