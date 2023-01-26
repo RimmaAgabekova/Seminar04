@@ -7,17 +7,14 @@ int a = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Введите число b: "); 
 int b = Convert.ToInt32(Console.ReadLine());
 
-GetPow(a,b);
-
 int GetPow(int a, int b)
-
 {
-int result = 1;
-for(int i = 0; i < b; i++)
-    {   
-        result = result * a;
-    }
+    int result = 1;
+    for(int i = 0; i < b; i++)
+        {   
+            result = result * a;
+        }
 
-return result;
+    return result;
 }
 Console.WriteLine(GetPow(a,b));
