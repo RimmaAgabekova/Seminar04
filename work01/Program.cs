@@ -14,7 +14,6 @@ int GetPow(int a, int b)
     {   
         result = result * a;
     }
-
     return result;
 }
 Console.WriteLine(GetPow(a,b));
